@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Data   Visualization, Key Features, Data Visualization, Get in Touch!">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nicepage.css')}}" media="screen">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/second.css')}}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js')}}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js')}}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/logo.jpeg"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  </head>
+  <body>
+    <div class='container'>
+
+  <div class='pics_in_a_row'>
+    <div class='img1'>
+      <img src='{{ url_for('static', filename='1.png')}}'>
+    </div>
+    <div class='img2'>
+      <img src='{{ url_for('static', filename='2.png')}}'>
+    </div>
+  </div>
+
+  
+  <div class='pics_in_a_row'>
+    <div class='img1'>
+      <img src='{{ url_for('static', filename='3.png')}}'>
+    </div>
+    <div class='img2'>
+      <img src='{{ url_for('static', filename='4.png')}}'>
+    </div>
+    <div class='img3'>
+      <img src='{{ url_for('static', filename='5.png')}}'>
+    </div>
+  </div>
+  
+  <div class='pics_in_a_row'>
+    <div class='img4'>
+      <img src='{{ url_for('static', filename='6.png')}}'>
+    </div>
+    <div class='img5'>
+      <img src='{{ url_for('static', filename='7.png')}}'>
+    </div>
+  </div>
+
+  <div class='pics_in_a_row'>
+    <div class='img1'>
+      <img src='{{ url_for('static', filename='8.png')}}'></a>
+    </div>
+    <div class='img2'>
+      <img src='{{ url_for('static', filename='9.png')}}'></a>
+    </div>
+  </div>
+  
+  <p>Recommended Questions</p>
+   <ol>
+    {% for i in range(len(Quest)) %}
+    <li>{{Quest[i]}}</li>
+    {% endfor % }
+  </ol>
+  
+</div>
+
+  </body>
+  </html>
