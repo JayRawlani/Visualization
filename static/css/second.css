@@ -1,0 +1,80 @@
+/* Important stuff for this demo. */
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .pics_in_a_row {
+    display: flex;
+  }
+  
+  .img1 { flex: 1.3344; }
+  .img2 { flex: 1.3345; }
+  .img3 { flex: 0.7505; }
+  .img4 { flex: 1.5023; }
+  .img5 { flex: 0.75; }
+  
+  
+  
+  /* Aaaand just some general styling. */
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rebeccapurple;
+  }
+  
+  .container {
+    background: white;
+    margin: 0 auto;
+    padding: 5%;
+    width: 75%;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-weight: normal;
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  
+  .muted {
+    font-style: italic;
+    color: #666;
+  }
+  
+  p, li {
+    line-height: 1.5
+  }
+  
+  li {
+    margin-bottom: 7px;
+  }
+  
+  p + p {
+    margin-top: -7px;
+  }
+  
+  code {
+    background: #eee;
+    padding: 2px 5px;
+    font-size: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 2px;
+  }
+  
+  .pics_in_a_row {
+    margin: 25px 0;
+  }
+  
+  .pics_in_a_row > div:not(:last-child) {
+    margin-right: 2%;
+  }
