@@ -1,0 +1,10 @@
+Column,Column1,Column2,QUESTIONS
+Percentage,NA,Department,Avg marks of all students from a particular department?
+Total,Student_Id,Department,Max marks obtained by student in particular department/subject?
+Total,Student_Id,Department,Min marks obtained by student in particular department/subject?
+Percentage,Student_Id,NA,Max percentage
+Total,Student_Id,NA,Count of students who secured distinction in all years?
+Total,Student_Id,NA,Count of students who failed in any of the subject
+Percentage,Student_Id,NA,Average Percentage
+Percentage,Department,NA,Average Percentage of Department
+Percentage,Student_Id,NA,Minimum Percentage
